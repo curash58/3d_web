@@ -1,8 +1,38 @@
-# React + Vite
+# 3D Portfolio (React Three Fiber)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a 3D developer portfolio project built with **React Three Fiber**, designed as a learning exercise and technical study. The project replicates a 3D portfolio originally shown in a tutorial, with the goal of understanding how to work with 3D models and interactive elements within a React environment.
 
-Currently, two official plugins are available:
+Inspired by; https://youtu.be/kt0FrkQgw8w?si=UTdXaVDFGjWCKEFu
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Learnings
+
+- Working with 3D scenes using **React Three Fiber** and **Three.js**.
+- Implementing smooth animations with GSAP.
+- Real-time tweaking of 3D properties using Leva panels.
+- Structuring components for scalability and reuse.
+- Styling with Tailwind for fast, responsive design.
+- Managing math and animation logic using Maath utilities.
+
+## Technologies Used
+
+- React
+- React Three Fiber
+- Three.js
+- GSAP & @gsap/react
+- Leva
+- @react-three/drei
+- maath
+- Tailwind CSS
+- Vite
+- ESLint
+
+## Run project
+
+To run this project locally:
+
+```bash
+git clone https://github.com/curash58/3d_web.git
+cd 3d_web
+npm install
+npm run dev
+```
